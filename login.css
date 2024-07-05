@@ -43,6 +43,7 @@ body{
     opacity: 50%;
     left: 0rem;
     filter: brightness(150%) saturate(180%);
+    z-index: -10;
     
 }
 #loginContainer h1{
