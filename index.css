@@ -114,12 +114,17 @@ body{
         gap: 1em;
     }
     .imgdiv{
-        width: 50%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding-left: 2em;
+    }
+    #imgdiv1{
+        width: 55%;
+    }
+    #imgdiv2{
+        width: 45%;
     }
     .imgdiv>img{
         border-radius: 135px;
@@ -133,7 +138,7 @@ body{
     #img2{
         width: 100%;
         border-radius: 50%;
-        height: 40%;
+        height: 38%;
         overflow: hidden;
     }
     img{
