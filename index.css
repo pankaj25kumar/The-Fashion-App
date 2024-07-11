@@ -10,14 +10,14 @@
   -ms-user-select: none;
   user-select: none;
 }
-body{
-    height: 100%;
-    width: 100%;
-}
 
 /* --------------------------------------------For Mobile Devices--------------------------------------- */
 
 @media (orientation:portrait) {
+    body{
+        width: 100%;
+        height: 100vh;
+    }
     #hero{
         width: 100%;
         height: 60vh;
@@ -111,26 +111,19 @@ body{
 /* ..........................For Desktop and Laptop............................ */
 
 @media (orientation:landscape) {
-    .main{
-        display: flex;
-        margin: 0 5em;
-    }
-    .hero-container{
-        width: 50%;
+    body{
+        width: 100%;
         height: 100vh;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 2em;
     }
     #hero{
-        width: 80%;
-        height: 80%;
-        position: relative;
+        width: 50%;
         display: flex;
+        /* background-color: red; */
     }
     #login-details{
         width: 50%;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -141,29 +134,35 @@ body{
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        padding-left: 2em;
+
     }
     #imgdiv1{
         width: 55%;
+        border-radius: 50%;
+        overflow: hidden;
     }
     #imgdiv2{
         width: 45%;
-    }
-    .imgdiv>img{
-        border-radius: 135px;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     #img1{
         width: 90%;
-        border-radius: 110px;
-        height: 50%;
+        height: 55%;
+        border-radius: 50%;
         overflow: hidden;
+        background-color: orangered;
+        /* border: 1px solid black; */
     }
     #img2{
-        width: 100%;
+        width: 84%;
+        height: 40%;
         border-radius: 50%;
-        height: 38%;
         overflow: hidden;
+        background-color: aqua;
+        /* border: 1px solid black; */
     }
     img{
         height: 100%;
@@ -202,3 +201,5 @@ body{
         font-weight: 500;
     }
 }
+
+
