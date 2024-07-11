@@ -20,401 +20,403 @@ body {
     height: 100%;
     width: 100%;
 }
-
-.wrapper {
-    height: auto;
-    width: 100%;
-    padding: 18px;
-}
-
-nav {
-    width: 100%;
-    height: 160px;
-}
-
-.location {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    /* background-color: red; */
-}
-
-.yourLocation {
-    height: 100%;
-    width: 80%;
-}
-
-.notification {
-    height: 100%;
-    width: 20%;
-    /* background-color: salmon; */
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-
-.notificationBox {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: #dadada;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.notificationBox>i {
-    font-size: 28px;
-    color: #222;
-}
-
-.locationTitle {
-    width: 100%;
-    height: 40%;
-    /* background-color: darkcyan; */
-    display: flex;
-    align-items: end;
-    /* padding-left: 20px; */
-}
-
-.locationTitle h4 {
-    font-weight: 600;
-    color: #999;
-    margin-bottom: -6px;
-    letter-spacing: 1px;
-}
-
-.locationName {
-    width: 100%;
-    height: 60%;
-    /* background-color: darkorange; */
-    display: flex;
-    align-items: center;
-    /* padding-left: 15px; */
-    letter-spacing: 1px;
-}
-
-.locationName>i {
-    font-size: 25px;
-    color: #704f38;
-}
-
-.locationName i:nth-child(3) {
-    font-weight: 1000;
-    color: #000;
-}
-
-.locationName h2 {
-    font-size: 22px;
-}
-
-
-.searchBox {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: brown; */
-}
-
-.searchBar {
-    height: 70%;
-    width: 82%;
-    border: 1px solid #999;
-    border-radius: 10px;
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-    padding: 0px 10px;
-}
-
-.searchBar>i {
-    font-size: 36px;
-    color: #704f38;
-}
-
-.searchBar input {
-    height: 100%;
-    width: 100%;
-    background: none;
-    border: none;
-    outline: none;
-}
-
-.searchBar input[type="text"] {
-    font-size: 23px;
-    padding-left: 10px;
-}
-
-.searchBar input::placeholder {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.filter {
-    height: 70%;
-    width: 14%;
-    background-color: #704f38;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.filter>i {
-    font-size: 36px;
-    color: #eaeaea;
-}
-
-.banner {
-    height: 200px;
-    width: 100%;
-    /* background-color: red; */
-    border-radius: 10px;
-    margin-top: 20px;
-    overflow: hidden;
-}
-
-.banner:hover img {
-    transform: scale(1.2);
-}
-
-.banner img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: transform 0.5s ease;
-}
-
-.sliderPoint {
-    width: 100%;
-    height: 30px;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sliderBox {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    /* background-color: blue; */
-}
-
-.point {
-    height: 14px;
-    width: 14px;
-    border-radius: 50%;
-    background-color: #dadada;
-}
-
-.point:nth-child(3) {
-    background-color: #704f38;
-}
-
-.category {
-    width: 100%;
-    height: 160px;
-    margin-top: 20px;
-}
-
-.categoryTitle {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.categoryTitle h1 {
-    color: #222;
-}
-
-.categoryTitle h3 {
-    color: #704f38;
-}
-
-.categoryOption {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    /* background-color: salmon; */
-}
-
-.optionBox {
-    height: 100%;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: red; */
-}
-
-.optionBox h3 {
-    color: #222;
-}
-
-.optionLogo {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* background-color: #ffffed; */
-}
-
-.optionLogo img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.flashSale {
-    width: 100%;
-    height: 100px;
-    margin-top: 40px;
-    /* background-color: salmon; */
-}
-
-.flashTitle {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flashTitle h1 {
-    color: #222;
-    font-size: 30px;
-}
-
-.flashTitle h3 {
-    color: #222;
-    font-size: 16px;
-}
-
-.flashTitle h3 span {
-    height: 20px;
-    width: 20px;
-    background-color: #e9cdba;
-    padding: 6px;
-    border-radius: 5px;
-    color: #704f38;
-}
-
-.flashOpt {
-    width: 100%;
-    height: 70%;
-    /* background-color: red; */
-    overflow-y: scroll;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.opts {
-    width: auto;
-    height: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    padding: 20px;
-    border: 2px solid #dadada;
-}
-
-.opts h3 {
-    color: #222;
-}
-
-.cards {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.card {
-    height: 260px;
-    width: 48%;
-    /* border: 1px solid black; */
-    display: flex;
-    margin-top: 20px;
-    align-items: start;
-    flex-direction: column;
-    justify-content: space-between;
-    /* overflow: hidden; */
-}
-
-.cardImg {
-    height: 220px;
-    width: 100%;
-    border-radius: 10px;
-    /* background-color: red; */
-    overflow: hidden;
-}
-
-.cardImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-.blankPage{
-    width: 100%;
-    height: 150px;
-}
-
-.overlay{
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(to top,#fff, #ffffff00);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.menu{
-    width: 90%;
-    height: 85px;
-    margin-bottom: 30px;
-    border-radius: 50px;
-    background-color: #0d0905;
-    display: flex;
-    align-items: center;
-    padding: 0px 6px;
-}
-
-#homeBtn{
-    color: #704f38;
-}
-
-.menuOpts:nth-child(1){
-    background-color: #fff;
-}
-
-.menuOpts{
-    height: 86%;
-    width: 20%;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menuOpts i{
-    font-size: 35px;
-    color: #999;
+@media (max-width:430px) {
+    .wrapper {
+        height: auto;
+        width: 100%;
+        padding: 18px;
+    }
+    
+    nav {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .location {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        /* background-color: red; */
+    }
+    
+    .yourLocation {
+        height: 100%;
+        width: 80%;
+    }
+    
+    .notification {
+        height: 100%;
+        width: 20%;
+        /* background-color: salmon; */
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .notificationBox {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #dadada;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .notificationBox>i {
+        font-size: 28px;
+        color: #222;
+    }
+    
+    .locationTitle {
+        width: 100%;
+        height: 40%;
+        /* background-color: darkcyan; */
+        display: flex;
+        align-items: end;
+        /* padding-left: 20px; */
+    }
+    
+    .locationTitle h4 {
+        font-weight: 600;
+        color: #999;
+        margin-bottom: -6px;
+        letter-spacing: 1px;
+    }
+    
+    .locationName {
+        width: 100%;
+        height: 60%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        /* padding-left: 15px; */
+        letter-spacing: 1px;
+    }
+    
+    .locationName>i {
+        font-size: 25px;
+        color: #704f38;
+    }
+    
+    .locationName i:nth-child(3) {
+        font-weight: 1000;
+        color: #000;
+    }
+    
+    .locationName h2 {
+        font-size: 22px;
+    }
+    
+    
+    .searchBox {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: brown; */
+    }
+    
+    .searchBar {
+        height: 70%;
+        width: 82%;
+        border: 1px solid #999;
+        border-radius: 10px;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    
+    .searchBar>i {
+        font-size: 36px;
+        color: #704f38;
+    }
+    
+    .searchBar input {
+        height: 100%;
+        width: 100%;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    
+    .searchBar input[type="text"] {
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    
+    .searchBar input::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    
+    .filter {
+        height: 70%;
+        width: 14%;
+        background-color: #704f38;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .filter>i {
+        font-size: 36px;
+        color: #eaeaea;
+    }
+    
+    .banner {
+        height: 200px;
+        width: 100%;
+        /* background-color: red; */
+        border-radius: 10px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    
+    .banner:hover img {
+        transform: scale(1.2);
+    }
+    
+    .banner img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.5s ease;
+    }
+    
+    .sliderPoint {
+        width: 100%;
+        height: 30px;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sliderBox {
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        /* background-color: blue; */
+    }
+    
+    .point {
+        height: 14px;
+        width: 14px;
+        border-radius: 50%;
+        background-color: #dadada;
+    }
+    
+    .point:nth-child(3) {
+        background-color: #704f38;
+    }
+    
+    .category {
+        width: 100%;
+        height: 160px;
+        margin-top: 20px;
+    }
+    
+    .categoryTitle {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .categoryTitle h1 {
+        color: #222;
+    }
+    
+    .categoryTitle h3 {
+        color: #704f38;
+    }
+    
+    .categoryOption {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        /* background-color: salmon; */
+    }
+    
+    .optionBox {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+    
+    .optionBox h3 {
+        color: #222;
+    }
+    
+    .optionLogo {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        /* background-color: #ffffed; */
+    }
+    
+    .optionLogo img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .flashSale {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+        /* background-color: salmon; */
+    }
+    
+    .flashTitle {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .flashTitle h1 {
+        color: #222;
+        font-size: 30px;
+    }
+    
+    .flashTitle h3 {
+        color: #222;
+        font-size: 16px;
+    }
+    
+    .flashTitle h3 span {
+        height: 20px;
+        width: 20px;
+        background-color: #e9cdba;
+        padding: 6px;
+        border-radius: 5px;
+        color: #704f38;
+    }
+    
+    .flashOpt {
+        width: 100%;
+        height: 70%;
+        /* background-color: red; */
+        overflow-y: scroll;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .opts {
+        width: auto;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        padding: 20px;
+        border: 2px solid #dadada;
+    }
+    
+    .opts h3 {
+        color: #222;
+    }
+    
+    .cards {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        height: 260px;
+        width: 48%;
+        /* border: 1px solid black; */
+        display: flex;
+        margin-top: 20px;
+        align-items: start;
+        flex-direction: column;
+        justify-content: space-between;
+        /* overflow: hidden; */
+    }
+    
+    .cardImg {
+        height: 220px;
+        width: 100%;
+        border-radius: 10px;
+        /* background-color: red; */
+        overflow: hidden;
+    }
+    
+    .cardImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .blankPage{
+        width: 100%;
+        height: 150px;
+    }
+    
+    .overlay{
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to top,#fff, #ffffff00);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    
+    .menu{
+        width: 90%;
+        height: 85px;
+        margin-bottom: 30px;
+        border-radius: 50px;
+        background-color: #0d0905;
+        display: flex;
+        align-items: center;
+        padding: 0px 6px;
+    }
+    
+    #homeBtn{
+        color: #704f38;
+    }
+    
+    .menuOpts:nth-child(1){
+        background-color: #fff;
+    }
+    
+    .menuOpts{
+        height: 86%;
+        width: 20%;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuOpts i{
+        font-size: 35px;
+        color: #999;
+    }
+    
 }
